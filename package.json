@@ -2,7 +2,7 @@
   "name": "portfolio-app",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://tisanthan.github.io",
+  "homepage": "https://github.com/Tisanthan/tisanthan.github.io",
   "dependencies": {
     "@u-wave/react-youtube": "^0.7.0",
     "gh-pages": "^2.1.1",
