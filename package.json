@@ -1,11 +1,11 @@
 {
   "name": "portfolio-app",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://github.com/Tisanthan/tisanthan.github.io",
+  "private": false,
+  "homepage": "https://tisanthan.github.io",
   "dependencies": {
     "@u-wave/react-youtube": "^0.7.0",
-    "gh-pages": "^2.0.1",
+    "gh-pages": "^2.1.1",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-scripts": "2.1.5",
@@ -17,6 +17,7 @@
     "build": "react-scripts build",
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
